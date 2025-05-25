@@ -1,4 +1,7 @@
-# PyDDF spring sprint
+# PyDDF spring sprint 2025
+
+* https://www.pyddf.de/
+* https://www.meetup.com/python-meeting-dusseldorf/events/307026678/
 
 ## Playing with flet
 

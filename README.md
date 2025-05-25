@@ -32,5 +32,5 @@ android-studio-run         Run Android Studio
 
 Android Emulation:
 
-![2025-05-25_16-43.png](https://github.com/jedie/pyddf-flet-test/blob/main/screenshots/2025-05-25_16-25.png?raw=true "2025-05-25_16-43.png")
+![2025-05-25_16-43.png](https://github.com/jedie/pyddf-flet-test/blob/main/screenshots/2025-05-25_16-43.png?raw=true "2025-05-25_16-43.png")
 

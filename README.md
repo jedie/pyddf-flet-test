@@ -8,6 +8,20 @@
 * https://flet.dev
 * https://github.com/flet-dev/flet
 
+
+### learnings
+
+* 16GB RAM is not enough ;)
+* very big initial downloads ~13GB
+* very long build time for the APK (initial build ~20min, incremental builds >1min)
+* flet bugs:
+  * include external Python packages doesn't work yet
+  * include flet [optional deps](https://flet.dev/docs/publish#including-optional-controls) doesn't work, too
+* building on windows has serveral issues.
+
+
+### Makefile
+
 ```
 $ make
 help                       List all commands

@@ -1,0 +1,48 @@
+[project]
+name = 'calc'
+version = '0.1.0'
+description = 'Add your description here'
+readme = 'README.md'
+requires-python = '>=3.13'
+dependencies = [
+    'flet',
+    'flet-geolocator',  # https://flet.dev/docs/controls/geolocator/
+#    'numpy',
+#    'fsspec',
+#    'MC6809',
+]
+[dependency-groups]
+dev = [
+    'uv',
+    'flet-cli',
+    'flet-desktop',
+]
+
+[tool.flet.flutter.dependencies]
+# https://flet.dev/docs/publish#including-optional-controls
+flet_geolocator = "*"
+
+#[tool.flet]
+#flutter.build_args = []
+## https://flet.dev/docs/publish
+#compile.app = true # --compile-app
+#compile.packages = true # --compile-packages
+#compile.cleanup = true # --cleanup-on-compile
+
+
+[tool.flet.android]
+# https://flet.dev/docs/publish/android
+split_per_abi = false
+min_sdk_version = 31
+target_sdk_version = 34
+
+[tool.flet.app.boot_screen]
+show = true
+message = 'Preparing the app for its first launch…'
+
+[tool.flet.app.startup_screen]
+show = true
+message = 'Starting up the app…'
+
+[tool.flet.app]
+path = "controls-gallery"

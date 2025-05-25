@@ -11,13 +11,17 @@
 
 ### learnings
 
+On modern linux systems the `/lib/x86_64-linux-gnu/libmpv.so.1` is missing,
+Work-a-round: Just link `libmpv.so.2` to `libmpv.so.1` ;)
+
 * 16GB RAM is not enough ;)
 * very big initial downloads ~13GB
 * very long build time for the APK (initial build ~20min, incremental builds >1min)
 * flet bugs:
   * include external Python packages doesn't work yet
   * include flet [optional deps](https://flet.dev/docs/publish#including-optional-controls) doesn't work, too
-* building on windows has serveral issues.
+* building on windows has several issues.
+* Easiest way to run a Android emulator is flatpak: https://flathub.org/apps/com.google.AndroidStudio
 
 
 ### Makefile
